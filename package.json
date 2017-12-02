@@ -1,6 +1,6 @@
 {
   "name": "auto-hyphen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This module is for automatic strain input and hyphenation input of the input.",
   "main": "lib/index.js",
   "typings": "index.d.ts",
