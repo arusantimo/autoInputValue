@@ -1,5 +1,5 @@
 {
-  "name": "auto-hyphen",
+  "name": "aru-auto-hyphen",
   "version": "0.0.1",
   "description": "This module is for automatic strain input and hyphenation input of the input.",
   "main": "index.js",
