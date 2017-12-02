@@ -1,4 +1,4 @@
-export function autoHypenBirth(value) {
+export function autoHyphenBirth(value) {
   value = value.replace(/[^0-9]/g, '');
   let yy = value;
   let mm = '';
@@ -30,7 +30,7 @@ export function autoHypenBirth(value) {
   return yy + mm + dd;
 }
 
-export function autoHypenPhone(value) {
+export function autoHyphenPhone(value) {
   value = value.replace(/[^0-9]/g, '');
   let tmp = '';
   if (value.length < 4) {
@@ -56,4 +56,4 @@ export function autoHypenPhone(value) {
     return tmp;
   }
 }
-export const removeHypen = (value) => value.replace(/\-/g, '');
+export const removeHyphen = (value) => value.replace(/\-/g, '');

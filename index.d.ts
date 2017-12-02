@@ -1,5 +1,5 @@
 declare module 'auto-hyphen' {
-  export function autoHypenPhone(value: string): string;
-  export function autoHypenBirth(value: string): string;
-  export const removeHypen: (value: string) => string;
-};
+  export function autoHyphenPhone(value: string): string;
+  export function autoHyphenBirth(value: string): string;
+  export const removeHyphen: (value: string) => string;
+}
