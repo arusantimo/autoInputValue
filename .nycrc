@@ -1,0 +1,22 @@
+{
+    "require": [
+        "ts-node/register",
+        "source-map-support/register"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ],
+    "extension": [
+        ".ts"
+    ],
+    "exclude": [
+        "**/*.d.ts",
+        "src/index.ts"
+    ],
+    "reporter": [
+        "text-summary",
+        "html",
+        "lcov"
+    ],
+    "all": true
+}
