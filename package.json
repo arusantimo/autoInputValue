@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "npm build",
     "build": "npm test && rollup -c",
-    "test": "mocha -r ts-node/register src/**/*Test.ts; exit 0;"
+    "test": "mocha -r ts-node/register src/**/*Test.ts"
   },
   "repository": {
     "type": "git",
