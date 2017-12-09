@@ -78,3 +78,5 @@ const transValue = autoHyphen.autoHyphenPhone(event.target.value);
 
 - 생일 입력시 12월을 넘어간 값은 12로 31일을 넘어간 값은 31로 변경됩니다.
 - When the birthday is entered, insert event value exceeding December is 12, and the value exceeding 31 days is changed to 31.
+
+nyc.js --reporter=lcovonly --extension=.ts --extension=.js --exclude=src/test/autoHyphenPhone.spec.ts --report-dir=/private/var/folders/_r/b_s4h7ps3k9bswkwjpv1km6c0000gn/T/mocha-intellij-coverage-2 /Users/yang-gwonseong/IdeaProjects/autoInputValue/node_modules/mocha/bin/_mocha --require ts-node/register --ui bdd --reporter "/Users/yang-gwonseong/Library/Application Support/IntelliJIdea2017.3/NodeJS/js/mocha-intellij/lib/mochaIntellijReporter.js" /Users/yang-gwonseong/IdeaProjects/autoInputValue/src/test/autoHyphenPhone.spec.ts --grep "autoHyphenPhone "
