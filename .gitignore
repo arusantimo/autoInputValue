@@ -1,5 +1,8 @@
-lib
 node_modules/
 *.log
 *.log.*
 npm-debug.log
+.nyc_output
+.*cache
+.idea
+.DS_Store

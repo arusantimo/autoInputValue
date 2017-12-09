@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "curly": [true, "ignore-same-line"],
+    "whitespace": [true, "check-operator"],
+    "no-trailing-whitespace": [true, "ignore-blank-lines"],
+    "max-line-length": [true, 150],
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "ordered-imports": false,
+    "no-unused-expression": false,
+    "no-unused-variable": true,
+    "no-console": false
+  }
+}
